@@ -1,0 +1,33 @@
+{
+    "name": "hilton/estudos-php",
+    "description": "Exercitando pratica de programacao",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hilton Bacelar",
+            "email": "hilton.bacelar@h9web.com.br",
+            "role": "Developer",
+            "homepage": "https://h9web.com.br"
+        }
+    ],
+
+    "config": {
+        "vendor-dir": "vendor"
+    },
+
+    "require": {
+        "coffeecode/datalayer": "1.1.*"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    }
+
+}
+
